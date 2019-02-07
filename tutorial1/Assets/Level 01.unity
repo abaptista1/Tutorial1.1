@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028346, g: 0.22571373, b: 0.30692244, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1105,6 +1105,22 @@ PrefabInstance:
       propertyPath: damageImage
       value: 
       objectReference: {fileID: 1829823565}
+    - target: {fileID: 1063921293, guid: ce01c1c93b4a01b478c4ad4b6092a87f, type: 3}
+      propertyPath: speed
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 630984417, guid: ce01c1c93b4a01b478c4ad4b6092a87f, type: 3}
+      propertyPath: timeBetweenBullets
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 630984417, guid: ce01c1c93b4a01b478c4ad4b6092a87f, type: 3}
+      propertyPath: damagePerShot
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 630984417, guid: ce01c1c93b4a01b478c4ad4b6092a87f, type: 3}
+      propertyPath: range
+      value: 100
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ce01c1c93b4a01b478c4ad4b6092a87f, type: 3}
 --- !u!114 &1063921292 stripped
